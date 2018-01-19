@@ -1,0 +1,55 @@
+# Microsoft Developer Studio Generated Dependency File, included by ElGamal.mak
+
+..\LIB_CRYPTO\base64.cpp : \
+	"..\LIB\data_types.hpp"\
+	"..\LIB_CRYPTO\base64.hpp"\
+	
+
+..\LIB\data_types.cpp : \
+	"..\LIB\data_types.hpp"\
+	
+
+..\LIB_CRYPTO\des_manager.cpp : \
+	"..\LIB\data_types.hpp"\
+	"..\LIB_CRYPTO\des_manager.hpp"\
+	"..\LIB_CRYPTO\des_tool.hpp"\
+	"..\LIB_CRYPTO\general_crypto.hpp"\
+	
+
+..\LIB_CRYPTO\des_tool.cpp : \
+	"..\LIB_CRYPTO\des_tool.hpp"\
+	
+
+.\ElGamal.cpp : \
+	"..\LIB\data_types.hpp"\
+	"..\LIB_CRYPTO\base64.hpp"\
+	"..\LIB_CRYPTO\des_manager.hpp"\
+	"..\LIB_CRYPTO\des_tool.hpp"\
+	"..\LIB_CRYPTO\general_crypto.hpp"\
+	"..\LIB_CRYPTO\gmp.h"\
+	"..\LIB_CRYPTO\gmp_tool.hpp"\
+	"..\LIB_CRYPTO\pki_io.hpp"\
+	".\ElGamal.hpp"\
+	
+
+..\LIB_CRYPTO\general_crypto.cpp : \
+	"..\LIB\data_types.hpp"\
+	"..\LIB_CRYPTO\general_crypto.hpp"\
+	
+
+..\LIB_CRYPTO\gmp_tool.cpp : \
+	"..\LIB\data_types.hpp"\
+	"..\LIB_CRYPTO\base64.hpp"\
+	"..\LIB_CRYPTO\general_crypto.hpp"\
+	"..\LIB_CRYPTO\gmp.h"\
+	"..\LIB_CRYPTO\gmp_tool.hpp"\
+	
+
+..\LIB_CRYPTO\pki_io.cpp : \
+	"..\LIB\data_types.hpp"\
+	"..\LIB_CRYPTO\base64.hpp"\
+	"..\LIB_CRYPTO\des_manager.hpp"\
+	"..\LIB_CRYPTO\des_tool.hpp"\
+	"..\LIB_CRYPTO\general_crypto.hpp"\
+	"..\LIB_CRYPTO\pki_io.hpp"\
+	

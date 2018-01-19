@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ElGamal - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\user1\LOCALS~1\Temp\RSP2250.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "__WIN32_OS__" /D "__TEST_ELGAMAL_MAIN__" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\user1\My Documents\EDU\CD_1\cryptanalyse_franck\index_calculus\GMP_version(binary)\ElGamal\ElGamal.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user1\LOCALS~1\Temp\RSP2250.tmp" 
+Creating temporary file "C:\DOCUME~1\user1\LOCALS~1\Temp\RSP2251.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ElGamal.pdb" /machine:I386 /out:"Release/ElGamal.exe" 
+".\Release\baby_step.obj"
+".\Release\base64.obj"
+".\Release\bit_field.obj"
+".\Release\cache.obj"
+".\Release\data_types.obj"
+".\Release\des.obj"
+".\Release\des_manager.obj"
+".\Release\des_tool.obj"
+".\Release\ElGamal.obj"
+".\Release\general_crypto.obj"
+".\Release\gmp_tool.obj"
+".\Release\hash_table.obj"
+".\Release\index_calculus.obj"
+".\Release\inf_counter.obj"
+".\Release\lin_sys.obj"
+".\Release\pki_io.obj"
+".\Release\pollard_p.obj"
+".\Release\prime_bank.obj"
+".\Release\quad_sieve.obj"
+".\Release\sparse_matrix.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\user1\LOCALS~1\Temp\RSP2251.tmp"
+<h3>Output Window</h3>
+Compiling...
+ElGamal.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ElGamal.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
