@@ -14,4 +14,8 @@ The project uses intensively the Gnu Multiprecision library (GMP).
 
 ## __windows compilation__
 You will need Visual studio (at least 2017)
-Tested in debug X86 / Debug X64, Release X86, Release X64
+Tested with the following configurations:
+- debug X86 
+- Debug X64
+- Release X86
+- Release X64
